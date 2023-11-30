@@ -1,0 +1,117 @@
+font-face {
+    font-family:"Raleway-regular";
+    src:url(../fonts/Raleway-Regular.ttf)
+}
+@font-face {
+    font-family:"Raleway-medium";
+    src:url(../fonts/Raleway-Medium.ttf)
+}
+@font-face {
+    font-family:"Raleway-bold";
+    src:url(../fonts/Raleway-Bold.ttf)
+}
+@font-face {
+    font-family:"Raleway-extrabold";
+    src:url(../fonts/Raleway-ExtraBold.ttf)
+}
+@font-face {
+    font-family:"Raleway-semibold";
+    src:url(../fonts/Raleway-SemiBold.ttf)
+}
+@font-face {
+    font-family:"Raleway-black";
+    src:url(../fonts/Raleway-Black.ttf)
+}
+.main{
+    height: 600px;
+    width: 50%;
+    background-color: rgba(243, 194, 130, 0.653);
+    margin-left: 400px;
+    margin-top: 90px;
+    border-radius: 30px;
+}
+.inner{
+    display: flex;
+    justify-content: center;
+   
+}
+
+.inner img{
+    margin-top: 26px;
+}
+body{
+    height: 600px;
+    width: 100%;
+    background-image: url(./image/bg1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.middle{
+    display: flex;
+   margin-left: 97px;
+    margin-top: 30px;
+    font-size: 1.2rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#city{
+    width: 600px;
+    height: 40px;
+    background-color: rgba(240, 248, 255, 0.524);
+    margin-left: 95px;
+    margin-top: 30px;
+    border-radius: .5rem;
+}
+h1{
+    font-family: "Raleway-semibold";
+    margin-top: 60px;
+}
+.delivery{
+    display: flex;
+    /* justify-content: center; */
+    padding: 20px 0;
+    margin-left: 140px;
+    
+}
+span{
+    margin:0 30px;
+   border: 1px solid rgb(46, 44, 43);
+   border-radius: .5rem;
+   height: 30px;
+   /* text-align: center; */
+   padding-top: 10px;
+   width: 200px;
+
+}
+span:hover{
+    background-color: black;
+    color: white;
+    transition: all .3s ease    ;
+}
+
+.ordr{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-right: 40px;
+  }
+  .order{
+    height: 50px;
+    width: 240px;
+    font-size: 1rem;
+    margin-top: 15px;
+    border-radius: 10px;
+    background-color:orangered;
+    border: 1px solid rgb(8, 8, 8);
+    
+    /* border: none; */
+    color: white;
+  }
+  .ord{
+    display: flex;
+    margin-left:140px;
+    
+  }
+  .order:hover{
+    background-color: aliceblue;
+    color: black;
+  }
